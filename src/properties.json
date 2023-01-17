@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animals>
+    <Horse>
+        <weight>400</weight>
+        <maxLocationCount>20</maxLocationCount>
+        <maxSpeed>4</maxSpeed>
+        <fullStomachKg>60</fullStomachKg>
+    </Horse>
+</Animals>
