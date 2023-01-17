@@ -1,2 +1,4 @@
-package Creatures.Animals.Predators;public interface Predator {
+package Creatures.Animals.Predators;
+
+public interface Predator {
 }

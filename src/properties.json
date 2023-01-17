@@ -1,9 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Animals>
-    <Horse>
-        <weight>400</weight>
-        <maxLocationCount>20</maxLocationCount>
-        <maxSpeed>4</maxSpeed>
-        <fullStomachKg>60</fullStomachKg>
-    </Horse>
-</Animals>
+{
+  "Island": {
+    "VerticalLocationsCount": 20,
+    "HorizontalLocationsCount": 100,
+    "InitialSpawnProbability": {
+
+    }
+  },
+  "Animals": {
+    "Herbivores": {
+      "Horse": {
+        "weight": 400,
+        "maxLocationCount": 20,
+        "maxSpeed": 4,
+        "fullStomachKg": 60
+      },
+      "Deer": {
+        "weight": 300,
+        "maxLocationCount": 20,
+        "maxSpeed": 4,
+        "fullStomachKg": 50
+      },
+      "Rabbit": {
+        "weight": 2,
+        "maxLocationCount": 150,
+        "maxSpeed": 2,
+        "fullStomachKg": 0.45
+      },
+      "Mouse": {
+        "weight": 0.05,
+        "maxLocationCount": 500,
+        "maxSpeed": 1,
+        "fullStomachKg": 0.01
+      },
+      "Goat": {
+        "weight": 60,
+        "maxLocationCount": 140,
+        "maxSpeed": 3,
+        "fullStomachKg": 10
+      },
+      "Sheep": {
+        "weight": 70,
+        "maxLocationCount": 140,
+        "maxSpeed": 3,
+        "fullStomachKg": 15
+      },
+      "Boar": {
+        "weight": 400,
+        "maxLocationCount": 50,
+        "maxSpeed": 2,
+        "fullStomachKg": 50
+      },
+      "Buffalo": {
+        "weight": 700,
+        "maxLocationCount": 10,
+        "maxSpeed": 3,
+        "fullStomachKg": 100
+      },
+      "Duck": {
+        "weight": 1,
+        "maxLocationCount": 200,
+        "maxSpeed": 4,
+        "fullStomachKg": 0.15
+      },
+      "Caterpillar": {
+        "weight": 0.01,
+        "maxLocationCount": 1000,
+        "maxSpeed": 0,
+        "fullStomachKg": 0
+      }
+    },
+    "Predators": {
+      "Wolf": {
+        "weight": 50,
+        "maxLocationCount": 30,
+        "maxSpeed": 3,
+        "fullStomachKg": 8
+      },
+      "Boa": {
+        "weight": 15,
+        "maxLocationCount": 30,
+        "maxSpeed": 1,
+        "fullStomachKg": 3
+      },
+      "Fox": {
+        "weight": 8,
+        "maxLocationCount": 30,
+        "maxSpeed": 2,
+        "fullStomachKg": 2
+      },
+      "Bear": {
+        "weight": 500,
+        "maxLocationCount": 5,
+        "maxSpeed": 2,
+        "fullStomachKg": 80
+      },
+      "Eagle": {
+        "weight": 6,
+        "maxLocationCount": 20,
+        "maxSpeed": 3,
+        "fullStomachKg": 1
+      }
+    },
+    "Plants": {
+      "Plant": {
+        "weight": 1,
+        "maxLocationCount": 200,
+        "maxSpeed": 0,
+        "fullStomachKg": 0
+      }
+    }
+  }
+}
